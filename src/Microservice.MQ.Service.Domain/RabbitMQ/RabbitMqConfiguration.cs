@@ -4,7 +4,9 @@
     {
         public string Hostname { get; set; }
 
-        public string QueueName { get; set; }
+        public string QueueSendName { get; set; }
+
+        public string QueueConsumeName { get; set; }
 
         public string UserName { get; set; }
 

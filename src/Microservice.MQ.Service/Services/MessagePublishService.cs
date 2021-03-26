@@ -19,7 +19,7 @@ namespace Microservice.MQ.Service.Services
 
         public MessagePublishService(IOptions<RabbitMqConfiguration> rabbitMqOptions)
         {
-            _queueName = rabbitMqOptions.Value.QueueName;
+            _queueName = rabbitMqOptions.Value.QueueSendName;
             _hostname = rabbitMqOptions.Value.Hostname;
             _username = rabbitMqOptions.Value.UserName;
             _password = rabbitMqOptions.Value.Password;

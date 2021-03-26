@@ -23,7 +23,7 @@ namespace Microservice.MQ.Service.Services
 
         public MessageConsumeService(IOptions<RabbitMqConfiguration> rabbitMqOptions)
         {
-            _queueName = rabbitMqOptions.Value.QueueName;
+            _queueName = rabbitMqOptions.Value.QueueConsumeName;
             _hostname = rabbitMqOptions.Value.Hostname;
             _username = rabbitMqOptions.Value.UserName;
             _password = rabbitMqOptions.Value.Password;
