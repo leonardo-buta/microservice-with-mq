@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Consoles", "1 - Consoles", "{DF641013-EF10-4B15-8497-36EDED467064}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Service", "2 - Service", "{38D07BB0-DE5A-4D59-B9C3-3FFF078CB2A3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Domain", "3 - Domain", "{92EE598B-7563-42CF-850D-D74C66173117}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infra", "4 - Infra", "{053DBF61-CFDD-4216-B2A1-B615090142C0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microservice.MQ.Service", "src\Microservice.MQ.Service\Microservice.MQ.Service.csproj", "{00FC797B-EAC1-4A5A-AE0D-E02B30EEA5CC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microservice.MQ.Service.Domain", "src\Microservice.MQ.Service.Domain\Microservice.MQ.Service.Domain.csproj", "{5DFFD0CB-9669-4AB3-BDA5-3696A6465EEF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microservice.MQ.CrossCut", "src\Microservice.MQ.CrossCut\Microservice.MQ.CrossCut.csproj", "{3DE356ED-2569-4734-B99D-8BF2E2E88166}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microservice.MQ.Client", "src\Microservice.MQ.Client\Microservice.MQ.Client.csproj", "{2B8963BD-8867-411D-93B4-614542106A81}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{00FC797B-EAC1-4A5A-AE0D-E02B30EEA5CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00FC797B-EAC1-4A5A-AE0D-E02B30EEA5CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00FC797B-EAC1-4A5A-AE0D-E02B30EEA5CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00FC797B-EAC1-4A5A-AE0D-E02B30EEA5CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DFFD0CB-9669-4AB3-BDA5-3696A6465EEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DFFD0CB-9669-4AB3-BDA5-3696A6465EEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DFFD0CB-9669-4AB3-BDA5-3696A6465EEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DFFD0CB-9669-4AB3-BDA5-3696A6465EEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DE356ED-2569-4734-B99D-8BF2E2E88166}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DE356ED-2569-4734-B99D-8BF2E2E88166}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DE356ED-2569-4734-B99D-8BF2E2E88166}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DE356ED-2569-4734-B99D-8BF2E2E88166}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B8963BD-8867-411D-93B4-614542106A81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B8963BD-8867-411D-93B4-614542106A81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B8963BD-8867-411D-93B4-614542106A81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B8963BD-8867-411D-93B4-614542106A81}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{00FC797B-EAC1-4A5A-AE0D-E02B30EEA5CC} = {38D07BB0-DE5A-4D59-B9C3-3FFF078CB2A3}
+		{5DFFD0CB-9669-4AB3-BDA5-3696A6465EEF} = {92EE598B-7563-42CF-850D-D74C66173117}
+		{3DE356ED-2569-4734-B99D-8BF2E2E88166} = {053DBF61-CFDD-4216-B2A1-B615090142C0}
+		{2B8963BD-8867-411D-93B4-614542106A81} = {DF641013-EF10-4B15-8497-36EDED467064}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BE7C68E8-EB81-4EFD-BA0D-C72575D9D5FA}
+	EndGlobalSection
+EndGlobal
